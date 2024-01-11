@@ -30,3 +30,5 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+// The launch shouldn't have occured because the fuelLevel is insufficient

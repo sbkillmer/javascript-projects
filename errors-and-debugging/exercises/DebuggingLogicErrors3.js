@@ -26,6 +26,9 @@ if (crewStatus && computerStatus === 'green'){
    launchReady = false;
 }
 
+console.log(launchReady)
+// So far it looks to me like fuelLevel isn't considered since it meets the first two conditions and then runs.
+
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
 //    console.log('Liftoff!');
